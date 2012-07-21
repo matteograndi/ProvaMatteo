@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "secondo.h"
+
+
+int secondo(){
+printf("Sei nel secondo programma\n");
+ return 0;
+};
