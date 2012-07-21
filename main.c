@@ -1,3 +1,8 @@
+/*
+  Questo è un commento
+  qui posso descrivere ciò che vogòio suòl programma
+ */
+
 #include <stdio.h>
 #include "primo.h"
 #include "secondo.h"
