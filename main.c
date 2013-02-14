@@ -12,7 +12,11 @@ int main()
 {
   int num;
   int a;
+  //<<<<<<< HEAD
   printf("Commento nel master");
+  //=======
+  printf("Commento scritto sul ramo secondario\n");
+  //>>>>>>> secondo
   printf("\n");
   printf("PREMI:\n1) per entrare nel primo programma\n2) per entrare nel secondo programma\n3) per entrare nel terzo programma\n0) per uscure\n\n");
 printf("Inserisci un numero: ");
