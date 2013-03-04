@@ -2,16 +2,17 @@
 CFLAGS=-Wall -g
 
 
-main: main.h primo.h primo.o secondo.h secondo.o terzo.h terzo.o main.c 
-	gcc main.c primo.o secondo.o terzo.o -o main $(CFLAGS)
+main: primo.h primo.o secondo.h secondo.o terzo.h terzo.o main.c 
+	gcc main.c primo.o secondo.o terzo.o -coverage -o main $(CFLAGS)
 
 terzo.o: terzo.h terzo.c
-	gcc -c terzo.c $(CFLAGS)
+	gcc -c terzo.c -coverage $(CFLAGS)
 
 secondo.o: secondo.h secondo.c
-	gcc -c secondo.c $(CFLAGS)
+	gcc -c secondo.c -coverage $(CFLAGS)
 
 primo.o: primo.h primo.c
-	gcc -c primo.c $(CFLAGS)
+	gcc -c primo.c -coverage 
+
 
 
