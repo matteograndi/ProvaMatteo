@@ -7,6 +7,6 @@ int primo(){
 printf("Sei nel primo programma\n");
 
 //printf("Peint errato!!);
- printf("\n\n");
+ printf("\n\n")
  return 0;
 };
