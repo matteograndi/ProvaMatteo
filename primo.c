@@ -4,7 +4,7 @@
 
 int primo(){
   printf("\n");
-printf("Sei nel primo programma\n");
+printf("Sei nel primo programma\n")
 
 //printf("Peint errato!!");
  printf("\n\n");
