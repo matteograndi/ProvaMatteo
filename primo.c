@@ -4,7 +4,7 @@
 
 int primo(){
 
-  printf("\nSei nel primo programma\n\n")
+  printf("\nSei nel primo programma\n\n");
 
   return 0;
 };
