@@ -3,10 +3,8 @@
 
 
 int primo(){
-  printf("\n");
-printf("Sei nel primo programma\n")
 
-printf("Print errato!!");
- printf("\n\n");
- return 0;
+  printf("\nSei nel primo programma\n\n")
+
+  return 0;
 };
