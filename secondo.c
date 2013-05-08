@@ -4,7 +4,7 @@
 
 int secondo(){
 printf("\n");
-printf("Sei nel secondo programma\n");
-printf("\n\n");
+printf("Sei nel secondo programma\n\n")
+
  return 0;
 };

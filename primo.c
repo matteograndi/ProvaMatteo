@@ -4,8 +4,7 @@
 
 int primo(){
   printf("\n");
-  printf("Sei nel primo programma\n");
-
+  printf("Sei nel primo programma\n")
 
 //printf("Print errato!!");
  printf("\n\n");
