@@ -3,7 +3,7 @@
 
 
 int primo(){
-printf("\nSei nel primoo programma\n\n");
+printf("\nSei nel primoo programma\n\n")
 
  return 0;
 };
