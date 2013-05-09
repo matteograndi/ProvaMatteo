@@ -5,6 +5,6 @@
 int terzo(){
 printf("\n");
 printf("Sei nel terzo programma\n");
-printf("\n\n");
+printf("\n");
  return 0;
 };
